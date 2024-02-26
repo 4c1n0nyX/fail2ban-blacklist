@@ -59,7 +59,7 @@ _**fail2ban-client status**_
 
 <br>
 
-Ahora, procedemos a descargar el script, procedemos a darles permiso de ejecución y posteriormente, ejecutarlo. En este caso, el script fue llamado **block.sh**
+Ahora, procedemos a descargar el script, luego debemos darles permiso de ejecución y posteriormente, ejecutarlo. En este caso, el script fue llamado **block.sh**
 
 <br>
 
