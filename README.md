@@ -93,4 +93,8 @@ La lista de IP a bloquear debe estar en orden por línea. Ejemplo:
 
 <br>
 
+Dentro del script, se debe cambiar la ruta del archivo de lista negra _(/ruta/del/archivo/lista_negra.txt)_
+
+<br>
+
 Espero que les sea de mucha ayuda!!
