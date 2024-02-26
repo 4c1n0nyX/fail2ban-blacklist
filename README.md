@@ -1,7 +1,7 @@
 # fail2ban-blacklist
 Script en bash que permite el bloqueo de direcciones IP en Fail2ban desde archivo de lista negra en txt.
 
-**MODO DE USO:**
+# MODO DE USO:
 
 Para poder usarlo, es necesario que creemos un filtro nuevo en jail, pudiendo ser añadido desde jail.local, o creando un nuevo .conf en la ruta jail.d
 
@@ -38,11 +38,11 @@ Comprobamos que tenemos la regla creada adecuadamente:
 Ahora, procedemos a crear el script de la siguiente manera:
 
 #!/bin/bash
-# Ruta al archivo de texto con las IPs
+#Ruta al archivo de texto con las IPs
 archivo_ips="**/ruta/del/archivo/lista_negra.txt**"
-# Recorrer las IPs del archivo
+#Recorrer las IPs del archivo
 while read ip; do
-  # Verificar si la IP ya está bloqueada
+  #Verificar si la IP ya está bloqueada
   if fail2ban-client get blacklistip banip $ip | grep -q "Banned"; then
     echo "La IP $ip ya está bloqueada"
   else
