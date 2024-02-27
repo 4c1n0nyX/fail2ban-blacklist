@@ -75,6 +75,20 @@ Con esto ya las direcciones IP deberian empezar a añadirse a fail2ban y seguida
 
 <br>
 
+## LISTADO DE DIRECCIONES IP MALICIOSAS:
+
+<br>
+
+Ofrecemos la descargar de un listado de direcciones IP maliciosas, el cual se actualiza 24/7, el cual puede ser utilizado en el script
+
+<br>
+
+ENLACE
+
+<br>
+
+<a>https://vencert.suscerte.gob.ve/media/documents/BlackList_IP.txt</a>
+
 ## CONSIDERACIONES IMPORTANTES:
 
 <br>
@@ -96,5 +110,11 @@ La lista de IP a bloquear debe estar en orden por línea. Ejemplo:
 Dentro del script, se debe cambiar la ruta del archivo de lista negra _(/ruta/del/archivo/lista_negra.txt)_
 
 <br>
+
+
+
+<br>
+
+
 
 Espero que les sea de mucha ayuda!!
