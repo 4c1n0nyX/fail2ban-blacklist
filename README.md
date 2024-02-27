@@ -83,11 +83,13 @@ Ofrecemos la descargar de un listado de direcciones IP maliciosas, el cual se ac
 
 <br>
 
-ENLACE
+ENLACE:
 
 <br>
 
 <a>https://vencert.suscerte.gob.ve/media/documents/BlackList_IP.txt</a>
+
+<br>
 
 ## CONSIDERACIONES IMPORTANTES:
 
